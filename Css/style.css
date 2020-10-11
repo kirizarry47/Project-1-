@@ -1,3 +1,6 @@
+
+/*---BASIC SETUP--*/
+
 * {
     margin: 0;
     padding: 0;
@@ -14,30 +17,14 @@ html {
 
 
 }
-
+/*---REUSABLE COMPONENTS--*/
 .row {
     max-width: 1140px;
     margin: 0 auto;
 
 }
 
-header {
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(imgs/main.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh
 
-}
-.main-text-box {
-    position: absolute;
-    width: 1140px;
-    top: 50%;
-    left: 50%;
-    /*--This translates the elemement half of its width and of it height up and to the left--*/
-    transform: translate(-50%, -50%);
-
-
-}
 
 h1 {
   margin-top: 0;
@@ -52,7 +39,7 @@ h1 {
 
 }
 
-/*----Buttons----*/
+/*---------BUTTONS----------*/
 
 .btn:link,
 .btn :visited {
@@ -103,3 +90,21 @@ h1 {
 
 }
 
+/*------HEADER------*/
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(imgs/main.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh
+
+}
+.main-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    /*--This translates the elemement half of its width and of it height up and to the left--*/
+    transform: translate(-50%, -50%);
+
+
+}
