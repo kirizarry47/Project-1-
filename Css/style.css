@@ -40,7 +40,8 @@ header {
 }
 
 h1 {
-  margin: 0;
+  margin-top: 0;
+  margin- bottom: 20px;
   color: white;
   font-size: 40px;
   font-weight: 300;
@@ -53,25 +54,52 @@ h1 {
 
 /*----Buttons----*/
 
-.btn {
+.btn:link,
+.btn :visited {
    display: inline-block !important;
    padding: 10px 30px !important;
    font-weight: 300 !important;
    text-decoration: none !important;
    border-radius: 200px !important;
-   color: white !important;
+   transition: background-color 0.21s, border 0.21s, color 0.21s;
 
 }
 
-.btn-full {
+
+.btn-full:link,
+.btn-full:visited {
     background-color: #2ecc71 !important;
+    border: 1px solid #2ecc71 !important;
+    color: #fff !important;
+    margin-right: 15px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 1px solid #2ecc71 !important;
+    color: #2ecc71 !important;
+
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #28b062 !important;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    background-color: #28b062 !important;
+    border: 1px solid #28b062 !important;
+    color: #fff !important;
+
     
 
 }
 
-.btn-ghost {
-    border: 1px solid #2ecc71 !important;
+.btn-ghost:hover,
+.btn-ghost:active {
+    border: 1px solid #28b062 !important;
+    color: #fff!important;
 
 }
-
 
