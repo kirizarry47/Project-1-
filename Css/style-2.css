@@ -28,6 +28,9 @@ section {
 .box {
     padding: 1%;
 }
+.span 1-of-4 {
+    width:23.8%;
+}
 
 
 /*-----Heading-----*/
@@ -45,7 +48,7 @@ h1{
     margin-bottom: 20px;
     color: white;
     font-size: 40px;
-    word-spacing: 3px;
+    word-spacing: 4px;
     letter-spacing: 1px;
 
 }
@@ -72,6 +75,7 @@ h2::after {
 h3 {
     font-size:110%;
     margin-bottom:50px;
+    margin-left: 60px;
 }
 /*----PARAGRAPHS-----*/
 .long-copy {
@@ -179,7 +183,7 @@ header {
 
 .main-nav li {
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 50px;
 }
 .main-nav li a:link,
 .main-nav li a:visited {
@@ -196,3 +200,18 @@ header {
     border-bottom: 2px solid #2ecc71;
 }
 
+
+/*---------Image Carousel----*/
+
+#cityCarousel {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+
+
+}
+.city-feature {
+    margin-bottom: 5px;
+    margin-left: 60px;
+
+}
